@@ -1,3 +1,3 @@
 # House_Price_Prediction
-...
-A regression problem
+
+A regression problem related to predicting the price of a house based on various given features. Data cleaning methods were used to drop features having more than 40% null values. The null values of features having numeric data type were filled with '0' and those with non-numeric data type were filled with 'None'. Applied One-Hot Encoding to the training and test dataset simultaneously, as it contained a number of categorical features. Trained and developed Linear Regression algorithm after segregating the dataset post One-Hot encoding. Parameter tuning was also done for the model. RMSE value of 1.09 was finally obtained using Linear Regression.
